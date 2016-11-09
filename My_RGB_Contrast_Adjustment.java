@@ -84,7 +84,7 @@ public class My_RGB_Contrast_Adjustment implements PlugInFilter
 	public static int clamp(int val, int min, int max) 
 	{
 		// val == Math.max(min, Math.min(max, val)) ? true : false;
-    	return Math.max(min, Math.min(max, val));
+    		return Math.max(min, Math.min(max, val));
 	}
 
 
